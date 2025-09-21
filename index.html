@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fandiaspraja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section id="header">
+        <div class="brand">
+          <p>Fandiaspraja</p>
+        </div>
+        <ul>
+          <li><a href="#heroes">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </section>
+
+      <section id="heroes">
+        <div class="bg-image">
+          <img src="./assets/images/yellow-bg.svg" alt="" />
+        </div>
+        <div class="heroes-content">
+          <p class="position">MOBILE APPLICATION DEVELOPER</p>
+          <h1>Hello, my name is Fikry Andias Praja</h1>
+          <p>Short text with details about you, what you do or your professional career. You can add more information on the about page.</p>
+          <button class="btn-primary">Projects</button>
+          <button class="btn-outlined">Linkedin</button>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="about-me">
+          <h2>About me</h2>
+          <p>Nisl arcu, scelerisque neque ut. Tincidunt amet, tempor duis tortor neque auctor dis ipsum. Pretium cras amet odio amet eleifend id sed cras sed. Aliquet risus posuere aliquet imperdiet sit.</p>
+          <button class="btn-primary">Resume</button>
+        </div>
+        <div class="profile-container">
+          <div class="bg-img-circle" style="background-image: url('assets/images/image-profile.png')"></div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <hr />
+        <div class="project-card">
+          <div class="project-description">
+            <h2>Delivery App</h2>
+            <p>I created delivery app, specificly about food delivery service.</p>
+            <button class="btn-outlined">View Project</button>
+          </div>
+          <div class="img-projects" style="background-image: url('./assets/images/delivery-app.jpg')"></div>
+        </div>
+
+        <div class="project-card">
+          <div class="img-projects-reverse" style="background-image: url('./assets/images/event-app.jpg')"></div>
+          <div class="project-description">
+            <h2>Event App</h2>
+            <p>I created Event App Project, for handling details event project (decoration, food, etc).</p>
+            <button class="btn-outlined">View Project</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-description">
+            <h2>Logistic App</h2>
+            <p>I created logistic app for handling delivery package, handling with special approach for specific package.</p>
+            <button class="btn-outlined">View Project</button>
+          </div>
+          <div class="img-projects" style="background-image: url('./assets/images/logistic-app.jpg')"></div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <hr />
+
+        <form action="" method="post">
+          <input type="text" placeholder="Name" name="name" required />
+          <input type="email" placeholder="Email" name="email" required />
+          <textarea name="message" placeholder="Message" id=""></textarea>
+          <button class="btn-primary">Send</button>
+        </form>
+
+        <div class="social-media">
+          <img src="./assets/images/instagram.svg" alt="" />
+          <img src="./assets/images/linkedin.svg" alt="" />
+          <img src="./assets/images/email.svg" alt="" />
+        </div>
+        <p class="copyright-name">Fandiaspraja 2025</p>
+      </section>
+
+      <section id="footer">
+        <img class="bg-footer" src="./assets/images/footer.svg" alt="" />
+        <!-- <div class="bg-footer" style="background-image: url('./assets/images/footer.svg')"></div> -->
+      </section>
+    </div>
+  </body>
+</html>
